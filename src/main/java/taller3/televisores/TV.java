@@ -49,8 +49,8 @@ public class TV {
         return volumen;
     }
     
-    public void setVolumen( int newVolumen){
-        this.volumen=newVolumen;
+    public void setVolumen( int volumen){
+        this.volumen=volumen;
     }
    
     public int getCanal(){
