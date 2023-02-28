@@ -106,7 +106,7 @@ public class TV {
     }    
     
     public void volumenDown(){
-        if (estado==true){
+        if (estado==false){
             if (1<volumen && volumen<=7){ 
                 --volumen;       
             }
