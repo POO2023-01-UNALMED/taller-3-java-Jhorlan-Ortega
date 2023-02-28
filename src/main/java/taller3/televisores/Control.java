@@ -16,18 +16,24 @@ public class Control {
     public void turnOn(){
         this.tv.turnOn();
     }
-    public void canalUp(){
-        tv.setCanal(0);
+    
+    
+    public void canalUp () {
+	this.tv.canalUp();
     }
-    public void canalDown(){
-        tv.setCanal(0);
+	
+    public void canalDown () {
+        this.tv.canalDown();
     }
-    public void volumenUp(){
-        tv.setVolumen(0);
+	
+    public void volumenUp () {
+	this.tv.volumenUp();
     }
-    public void volumenDown(){
-        tv.setVolumen(0);
+	
+    public void volumenDown () {
+	this.tv.volumenDown();
     }
+    
     
     public void setCanal(int canal) {
 	if ((canal>=1 && canal<=120) && this.tv.getEstado()==true){
