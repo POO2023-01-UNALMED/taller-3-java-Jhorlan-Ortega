@@ -20,16 +20,16 @@ public class Control {
     
     
     public void canalUp(){
-        tv.setCanal(0);
+        this.tv.canalUp();
     }
     public void canalDown(){
-        tv.setCanal(0);
+        this.tv.canalDown();
     }
     public void volumenUp(){
-        tv.setVolumen(0);
+        this.tv.volumenUp();
     }
     public void volumenDown(){
-        tv.setVolumen(0);
+        this.tv.volumenDown();
     }
     
     public void setCanal(int canal) {
@@ -45,8 +45,5 @@ public class Control {
     public TV getTv () {
 	return tv;
     }
-    
-    
-    
-    
+       
 }

@@ -12,11 +12,7 @@ public class TV {
      
     public TV (Marca marca, boolean estado){
         this.marca=marca;
-        this.estado=estado;
-        this.canal=1;
-        this.precio=500;
-        this.volumen=1;
-        
+        this.estado=estado;        
         this.numTV++;
     }
     
@@ -85,25 +81,25 @@ public class TV {
 
     public void canalUp () {
 	if ((this.estado == true) && (this.canal < 120) ) {
-		this.canal++;
+	    this.canal++;
 	}
     }
 	
     public void canalDown () {
 	if ((this.estado == true) && (this.canal > 1) ) {
-		this.canal--;
+	    this.canal--;
 	}
     }
 	
     public void volumenUp () {
 	if ((this.estado == true) && (this.volumen < 7) ) {
-		this.volumen++;
+	    this.volumen++;
 	}
     }
 	
     public void volumenDown () {
 	if ((this.estado == true) && (this.volumen > 1) ) {
-		this.volumen--;
+	    this.volumen--;
 	}
     }
 }  
