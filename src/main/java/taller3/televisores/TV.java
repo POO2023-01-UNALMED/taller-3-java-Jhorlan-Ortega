@@ -90,7 +90,7 @@ public class TV {
         }  
     }
     public void canalDown(){
-        if (estado==false){
+        if (estado==true){
             if (1<canal && canal<=120){
                  --canal; 
             }
@@ -106,7 +106,7 @@ public class TV {
     }    
     
     public void volumenDown(){
-        if (estado==false){
+        if (estado==true){
             if (1<volumen && volumen<=7){ 
                 --volumen;       
             }
