@@ -12,7 +12,8 @@ public class Marca {
         this.nombre=newNombre;
     }
     
-    public Marca(){
+    public Marca(String nombre){
+        this.nombre=nombre;
     }
     
     
